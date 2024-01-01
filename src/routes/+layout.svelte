@@ -1,23 +1,3 @@
-<script lang="ts">
-    const title = 'Help You Overcome Three-Day Hump!';
-    const description = 'Tell us what you\'d like to accomplish, and we\'ll use AI to create a motivational 3:30 video for you.';
-</script>
-
-<svelte:head>
-    <title>{title}</title>
-    
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-
-    <meta property="og:url" content="https://${location.host}/" />
-    <meta property="og:title" content="{title}" />
-    <meta property="og:description" content="{description}" />
-
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{title}" />
-    <meta name="twitter:description" content="{description}" />
-</svelte:head>
-
 <div id="app">
     <slot />
 </div>
